@@ -13,7 +13,7 @@ import {
 import { Nav } from "./components/Nav";
 export const App = () => {
   return (
-    <mian className="relative">
+    <main className="relative">
       {/* <TailwindPractice /> */}
       <Nav />
       <section className="x1:padding-1 wide:padding-r padding-b">
@@ -37,6 +37,6 @@ export const App = () => {
       <section className="padding-x bg-black padding-t pb-28">
         <Footer />
       </section>
-    </mian>
+    </main>
   );
 };
